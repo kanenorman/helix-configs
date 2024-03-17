@@ -1,0 +1,12 @@
+[[language]]
+name = "cpp"
+auto-format = true
+formatter = { command = "clang-formatter", args = ["-style=Google"]}
+language-servers = ["clangd"]
+
+
+[[language]]
+name = "python"
+auto-format = true
+formatter = { command = "black"}
+language-servers = ["pyright"]
